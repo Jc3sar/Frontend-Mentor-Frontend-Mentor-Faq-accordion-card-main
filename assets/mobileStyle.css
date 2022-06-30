@@ -1,0 +1,123 @@
+body{
+    width: 100%;
+    height: 140vh;
+    background: linear-gradient(hsl(273, 75%, 66%), hsl(240, 73%, 65%));
+    background-repeat: no-repeat;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    background-size: cover;
+}
+
+.accordion{
+    width: 340px;
+    background-color: #fff;
+    border-radius: 30px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 60px;
+    padding-bottom: 60px;
+}
+
+.accordion__images__field{
+    width: 100%;
+    height: 120px;
+    display: flex;
+    justify-content: center;
+    background-image: url('../images/bg-pattern-mobile.svg');
+    background-position: 60% -1%;
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
+
+.accordion__images__field__imgs{
+    width: 300px;
+    height: 200px;
+    position: relative;
+    top: -112px; 
+    display: flex;
+    justify-content: center;
+}
+ 
+.accordion__texts__field{
+    width: 90%;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.accordion__texts__field h1{
+    text-align: center;
+    font-size: 35px;
+    margin: 30px 0px 10px 0px;
+}
+
+.accordion__question{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    border-top: hsla(0, 0%, 48%, 0.274)solid 1px;
+    padding: 25px 0px;
+    cursor: pointer;
+}
+
+.accordion__question img{
+    align-self: center;
+    width: 14px;
+    transition: all .3s ease-in;
+}
+
+
+.accordion__question h3{
+    font-size: 15px;
+  
+}
+
+.accordion__answer{
+    width: 100%;
+    padding-bottom: 25px;
+    display: none;
+    transition: all .3s ease-in;
+}
+
+
+#accordion--question1{
+    border: none;
+}
+
+span{
+    border-bottom: hsla(0, 0%, 48%, 0.274) solid 1px;
+    width: 85%;
+}
+
+.imgsDesktop{
+    display: none;
+}
+
+.accordion__question:active{
+    color: rgb(251, 140, 21);
+}
+
+
+/* JS FIELD */
+.active{
+    display: block;
+    transition: all .3s ease-in;
+}
+
+.rotate{
+    transform: rotate(180deg);
+    transition: all .3s ease-in;
+}
+
+
+.accordion__questions--littleBold{
+    font-weight: 400;
+}
+
+.tittleBold{
+    font-weight: 700;
+}

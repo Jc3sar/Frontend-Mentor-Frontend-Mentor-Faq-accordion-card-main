@@ -1,0 +1,114 @@
+@media (min-width: 1150px){
+
+    body{
+        width: 100%;
+        height: 100vh;
+    }
+
+
+    .accordion{
+        min-width: 950px;
+        min-height: 500px;
+        border-radius: 30px;
+        background-color: #fff;
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
+        margin-top: 0px;
+        padding-bottom: 20px;
+        padding-right: 40px;
+        padding-top: 20px;
+        background-image: url('../images/bg-pattern-desktop.svg');
+        /* background-position: -30% -1%; */
+        background-position: 4000% 70%;
+        background-size: auto;
+        background-repeat: no-repeat;
+    }
+
+
+    .accordion__images__field{
+        width: 450px;
+        height: 400px;
+        background-image: none;
+    }
+
+    .accordion__images__field__imgs{
+        width: 100%;
+        height: 360px;
+        position: relative;
+        top: 20px;
+        left: -85px; 
+        display: flex;
+        justify-content: center;
+        border: solid #832222 solid;
+    }
+
+    #box{
+        position: absolute;
+        top: 120px;
+        left: -40px; 
+    }
+    
+    .accordion__texts__field{
+        width: 450px;
+        font-size: 12px;
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        /* border: solid 1px #000; */
+    }
+
+    .accordion__texts__field h1{
+        text-align: left;
+        font-size: 28px;
+        margin: 20px 0px 40px 0px;
+    }
+  
+
+    .accordion__question{
+        width: 85%;
+        display: flex;
+        justify-content: space-between;
+        border-top: hsla(0, 0%, 48%, 0.274)solid 1px;
+        padding: 15px 0px;
+        cursor: pointer;
+    }
+
+
+    .accordion__answer{
+        width: 85%;
+        font-size: 12px;
+        padding-bottom: 15px;
+    }
+
+    span{
+        border-bottom: hsla(0, 0%, 48%, 0.274) solid 1px;
+        width: 85%;
+    }
+
+
+
+
+
+    .imgMobile{display: none;}
+    .imgsDesktop{display: block;}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+}
