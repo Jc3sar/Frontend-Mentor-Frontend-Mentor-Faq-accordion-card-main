@@ -10,6 +10,8 @@ q1.addEventListener("click", () =>{
     let arrow = document.getElementById("arrow1");
     let tittle = document.getElementById("accordion__questions--tittle1");
     console.log(tittle);
+    // answer.setAttribute("atributo");
+    // answer.removeAttribute("atributo");
     answer.classList.toggle("active");
     arrow.classList.toggle("rotate");
     tittle.classList.toggle("tittleBold");

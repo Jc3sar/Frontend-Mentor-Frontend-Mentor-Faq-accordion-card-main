@@ -1,4 +1,4 @@
-@media (min-width: 1150px){
+/* @media (min-width: 1150px){
 
     body{
         width: 100%;
@@ -19,7 +19,6 @@
         padding-right: 40px;
         padding-top: 20px;
         background-image: url('../images/bg-pattern-desktop.svg');
-        /* background-position: -30% -1%; */
         background-position: 4000% 70%;
         background-size: auto;
         background-repeat: no-repeat;
@@ -55,9 +54,9 @@
         display: flex;
         justify-content: center;
         flex-direction: column;
-        /* border: solid 1px #000; */
+        border: solid 1px #000;
     }
-
+/* 
     .accordion__texts__field h1{
         text-align: left;
         font-size: 28px;
@@ -84,14 +83,15 @@
     span{
         border-bottom: hsla(0, 0%, 48%, 0.274) solid 1px;
         width: 85%;
-    }
+    } */
 
 
-
+/* 
 
 
     .imgMobile{display: none;}
     .imgsDesktop{display: block;}
+ */
 
 
 
@@ -110,5 +110,4 @@
 
 
 
-
-}
+/* } */ 
