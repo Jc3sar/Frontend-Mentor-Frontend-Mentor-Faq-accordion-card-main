@@ -1,6 +1,6 @@
 html{
     width: 100%;
-    min-height: 1000px;
+    min-height: 1100px;
     background: linear-gradient(hsl(273, 75%, 66%), hsl(240, 73%, 65%));
 }
 
@@ -21,6 +21,7 @@ body{
     flex-direction: column;
     margin-top: 110px;
     padding-bottom: 60px;
+    margin-bottom: 50px;
 }
 
 .accordion-images{
@@ -99,7 +100,7 @@ button{
 }
 
 .accordion__details{
-    display: none;
+    /* display: none; */
     padding: 4px 0px 8px 0px;
 }
 
