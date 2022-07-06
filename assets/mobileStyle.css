@@ -77,6 +77,7 @@ body{
 
 button{
     padding-top: 16px;
+    cursor: pointer;
 }
 
 .accordion__toggle{
@@ -89,7 +90,7 @@ button{
     padding-top: 20px;
 }
 
-#firstBorder{
+#accordion__questions-1{
     border-top: none;
 }
 
@@ -100,20 +101,25 @@ button{
 }
 
 .accordion__details{
-    /* display: none; */
+    display: none;
     padding: 4px 0px 8px 0px;
+    transition: all .3s ease-out;
 }
 
+button:active{
+    color: hsl(25, 97%, 53%);
+}
 
+.accordion__question img{
+    transition: all .3s ease-in;
+}
 
-
-
-
-
-
+#accordion-answer1{
+    transition: all .3s ease-in;
+}
 
 /* JS FIELD */
-/* .active{
+.active{
     display: block;
     transition: all .3s ease-in;
 }
@@ -123,10 +129,10 @@ button{
     transition: all .3s ease-in;
 }
 
-.accordion__questions--littleBold{
+.question__statement{
     font-weight: 400;
 }
 
 .tittleBold{
     font-weight: 700;
-} */ 
+} 
