@@ -1,5 +1,6 @@
 html{
     width: 100%;
+    min-height: 1000px;
     background: linear-gradient(hsl(273, 75%, 66%), hsl(240, 73%, 65%));
 }
 
@@ -98,7 +99,7 @@ button{
 }
 
 .accordion__details{
-    /* display: none; */
+    display: none;
     padding: 4px 0px 8px 0px;
 }
 
