@@ -1,11 +1,11 @@
 html{
-    width: 100%;
-    min-height: 1100px;
-    background: linear-gradient(hsl(273, 75%, 66%), hsl(240, 73%, 65%));
+    /* min-height: 1100px; */
+    /* background: linear-gradient(hsl(273, 75%, 66%), hsl(240, 73%, 65%)); */
 }
 
 body{
-    /* background: linear-gradient(hsl(273, 75%, 66%), hsl(240, 73%, 65%)); */
+    background: linear-gradient(hsl(273, 75%, 66%), hsl(240, 73%, 65%));
+    background-attachment: fixed;
     width: 100%;
     display: flex;
     justify-content: center;
@@ -102,7 +102,7 @@ button{
 }
 
 .accordion__details{
-    display: none;
+    /* display: none; */
     padding: 4px 0px 8px 0px;
     transition: all .3s ease-out;
 }
