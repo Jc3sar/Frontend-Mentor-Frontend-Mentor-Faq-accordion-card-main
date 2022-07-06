@@ -1,10 +1,10 @@
 html{
-    height: 100%;
     width: 100%;
+    background: linear-gradient(hsl(273, 75%, 66%), hsl(240, 73%, 65%));
 }
 
 body{
-    background: linear-gradient(hsl(273, 75%, 66%), hsl(240, 73%, 65%));
+    /* background: linear-gradient(hsl(273, 75%, 66%), hsl(240, 73%, 65%)); */
     width: 100%;
     display: flex;
     justify-content: center;
