@@ -99,7 +99,7 @@ button{
 }
 
 .accordion__details{
-    /* display: none; */
+    display: none;
     padding: 4px 0px 8px 0px;
 }
 
